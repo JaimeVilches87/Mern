@@ -14,7 +14,7 @@ const SavedBooks = () => {
   const {loading, data} = useQuery(GET_ME);
 
   const userData = data?.me || {};
-  console.log(userData);
+  // console.log(userData);
 
   // const [userData, setUserData] = useState({});
 
